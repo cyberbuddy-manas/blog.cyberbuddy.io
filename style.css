@@ -197,7 +197,7 @@ header div:nth-child(1) div .author-img {
   width: 45%;
 }
 
-header div:nth-child(1) img {
+header div:nth-child(1) .author-img img {
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -280,7 +280,8 @@ main content h1 {
   font-weight: 700;
   font-size: 36px;
   opacity: 0.9;
-  margin: 10px auto;
+  margin: auto;
+  margin-top: 25px;
 }
 
 content p {
@@ -746,7 +747,9 @@ section div button img {
   }
 
   header div:nth-child(1) h1 {
-    width: 70%;
+    width: 90%;
+    font-size: 38px;
+    line-height: 101%;
   }
 
   aside {
@@ -774,6 +777,10 @@ section div button img {
     height: 250px;
   }
 
+  #newsletter section figure div {
+    zoom: 0.8;
+  }
+
   #newsletter img:nth-child(2) {
     width: 280px;
     height: 86%;
@@ -783,12 +790,47 @@ section div button img {
     font-size: 40px;
   }
 
+  #more-author figure p {
+    font-size: 18px;
+  }
+
   #newsletter section figure {
-    height: 60px;
+    height: 50px;
+    width: 70%;
+  }
+
+  #newsletter {
+    zoom: 0.7;
+  }
+
+  #more-author {
+    zoom: 0.8;
+  }
+
+  #main {
+    zoom: 0.5;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 800px) {
+  nav {
+    zoom: 0.8;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #newsletter {
+    zoom: 1;
+  }
+
+  #more-author {
+    zoom: 1;
+  }
+
+  #main {
+    zoom: 1;
+  }
+
   nav div:nth-child(1) h2 {
     font-size: 44px;
   }
@@ -799,6 +841,10 @@ section div button img {
 
   nav div:nth-child(1) span {
     font-size: 30px;
+  }
+
+  header div:nth-child(1) h3:nth-child(1) {
+    font-size: 14px;
   }
 
   nav div:nth-child(1) {
@@ -821,8 +867,9 @@ section div button img {
   }
 
   header div:nth-child(1) h1 {
-    font-size: 35px;
-    width: 90%;
+    font-size: 30px;
+    width: 80%;
+    line-height: 105%;
   }
 
   .header-img img {
@@ -837,12 +884,26 @@ section div button img {
     width: 62%;
   }
 
+  main {
+    margin-top: 0px;
+  }
+
   main div:nth-child(2) {
     width: 90%;
   }
 
-  content h1 {
-    font-size: 32px;
+  main content h1 {
+    font-size: 22px;
+  }
+
+  main content p {
+    font-size: 18px;
+    text-align: left;
+    word-spacing: 7px;
+  }
+
+  main content li {
+    font-size: 17px;
   }
 
   main div figure {
