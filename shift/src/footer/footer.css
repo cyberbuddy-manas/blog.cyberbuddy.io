@@ -1,0 +1,399 @@
+/*Newsletter*/
+
+#newsletter {
+  margin-top: 150px;
+  width: auto;
+  height: 350px;
+  background-image: url("newsletter.png");
+  background-size: cover;
+  display: flex;
+}
+
+#newsletter section {
+  width: 70%;
+}
+
+#newsletter section h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 55px;
+  color: #373737;
+  margin-top: 30px;
+}
+
+#newsletter section figure {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+  width: 50vw;
+  height: 70px;
+  margin: auto;
+  margin-top: 30px; 
+}
+
+#newsletter section figure input {
+  width: 80%;
+  height: 50%;
+  margin-left: auto;
+  border: none;
+  font-size: 24px;
+}
+
+#newsletter section figure input:focus {
+  outline: none;
+}
+
+#newsletter section figure input::placeholder { /*Chrome*/
+  font-weight: 500;
+  font-size: 22px;
+  color: #7B7B7B;
+}
+
+#newsletter section figure input::-ms-input-placeholder { /* Microsoft Edge */
+  font-weight: 500;
+  font-size: 22px;
+  color: #7B7B7B;
+}
+
+#newsletter section figure div {
+  width: 20%;
+  display: flex;
+  place-items: center;
+  background-color: #D6D6D6;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+#newsletter section figure img {
+  width: 70%;
+  height: 50%;
+}
+
+#newsletter img:nth-child(2) {
+  margin: 35px 7vw 0 0;
+  width: 370px;
+  height: 90%;
+}
+
+/*Main footer start*/
+
+#main {
+  width: auto;
+  height: 350px;
+  background-color: #031634;
+  z-index: 0;
+}
+
+#main figure:nth-child(1) {
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  background: linear-gradient(89.93deg, 
+            rgba(0, 0, 0, 0.6) -0.11%, 
+            rgba(0, 0, 0, 0) 73.08%);
+  z-index: 1;
+  mix-blend-mode: overlay;
+}
+
+#main a {
+  color: white;
+}
+
+#main figure:nth-child(2) {
+  height: 320px;
+  display: flex;
+}
+
+#main figure:nth-child(2) div {
+  height: 100%;
+}
+
+#main figure:nth-child(2) div:nth-child(1) {
+  width: 50%;
+  display: grid;
+}
+
+#main .branding-foo {
+  display: flex;
+}
+
+#main figure:nth-child(2) div:nth-child(1) .branding-foo {
+  margin: 25px 10px 65px 45px;
+}
+
+#main figure:nth-child(2) div:nth-child(1) .branding-foo img {
+  width: 80px;
+  height: 80px;
+}
+
+#main figure:nth-child(2) div:nth-child(1) .branding-foo h1 {
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+  text-shadow: 10px -11px 9px rgba(0, 0, 0, 0.06);
+  margin-left: 10px;
+}
+
+#main figure:nth-child(2) div:nth-child(1) .branding-foo h3 {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.175em;
+  color: #FFFFFF;
+  text-shadow: 10px -11px 9px rgba(0, 0, 0, 0.06);
+  margin-left: 15px;
+} 
+
+#main figure:nth-child(2) .social-foo {
+  width: 100%;
+  height: 150px;
+  margin: 20px 20px 20px 140px;
+}
+
+#main figure:nth-child(2) .social-foo h2 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #FFFFFF;
+  text-shadow: 10px -11px 9px rgba(0, 0, 0, 0.06)
+}
+
+#main figure:nth-class(2) .social-foo span{
+  display: flex;
+}
+
+#main figure:nth-child(2) div:nth-child(2) {
+  display: grid;
+  width: 25%;
+}
+
+#main figure:nth-child(2) .heading {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: left;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+  text-shadow: 10px -11px 9px rgba(0, 0, 0, 0.06);
+  height: 70px;
+  margin-top: 25px;
+}
+
+#main figure:nth-child(2) div:nth-child(2) ul {
+  width: auto;
+  height: 250px;
+}
+
+#main figure:nth-child(2) div:nth-child(2) ul li {
+  list-style-type: none;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-shadow: 10px -11px 9px rgba(0, 0, 0, 0.06);
+  margin-bottom: 14px;
+}
+
+#main figure:nth-child(2) div:nth-child(2) ul li img {
+  margin-right: 10px;
+}
+
+#main figure:nth-child(2) div:nth-child(3) {
+  width: 20%;
+  display: grid;
+  margin-left: auto;
+}
+
+#main figure:nth-child(2) div:nth-child(3) ul {
+  width: auto;
+  height: 250px;
+}
+
+#main figure:nth-child(2) div:nth-child(3) ul li {
+  font-weight: normal;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-shadow: 10px -11px 9px rgba(0, 0, 0, 0.06);
+  list-style-type: none;
+  margin-bottom: 14px;
+}
+
+#main p {
+  height: 30px;
+  color: white;
+  z-index: 2;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  #newsletter {
+    height: 250px;
+  }
+
+  #newsletter section figure div {
+    zoom: 0.8;
+  }
+
+  #newsletter img:nth-child(2) {
+    width: 280px;
+    height: 86%;
+  }
+
+  #newsletter section h1 {
+    font-size: 40px;
+  }
+
+  #more-author figure p {
+    font-size: 18px;
+  }
+
+  #newsletter section figure {
+    height: 50px;
+    width: 70%;
+  }
+
+  #newsletter {
+    zoom: 0.8;
+  }
+
+  #more-author {
+    zoom: 0.85;
+  }
+
+  #main {
+    zoom: 0.75;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #newsletter {
+    zoom: 1;
+  }
+  
+  #main {
+    zoom: 1;
+  }
+  
+  #newsletter {
+    height: 200px;
+    margin-top: 100px;
+  }
+
+  #newsletter section {
+    width: 95%;
+    margin: auto;
+  }
+
+  #newsletter section h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  #newsletter section figure {
+    height: 30px;
+    width: 80%;
+  }
+
+  #newsletter section figure input {
+    font-size: 18px;
+    height: 100%;
+  }
+
+  #newsletter section figure input::placeholder {
+    font-size: 18px;
+  }
+
+  #newsletter section figure div {
+    width: 28px;
+    height: 28px;
+    margin-right: 3px;
+  }
+
+  #newsletter img:nth-child(2) {
+    display: none;
+  }
+
+  #main {
+    height: auto;
+  }
+
+  #main figure:nth-child(1) {
+    height: 130%;
+    background: linear-gradient(180deg, 
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0));
+  }
+
+  #main figure:nth-child(2) {
+    display: grid;
+    height: auto;
+  }
+
+  #main figure:nth-child(2) div:nth-child(1) {
+    width: 100%;
+  }
+
+  #main figure:nth-child(2) div:nth-child(1) .branding-foo {
+    width: auto;
+    margin: 25px auto 55px 5%;
+  }
+
+  #main figure:nth-child(2) div:nth-child(1) .branding-foo img {
+    width: 70px;
+    height: 70px;
+  }
+
+  #main figure:nth-child(2) div:nth-child(1) .branding-foo h1 {
+    font-size: 35px;
+  }
+
+  #main figure:nth-child(2) div:nth-child(1) .branding-foo h3 {
+    font-size: 18px;
+  }
+
+  #main figure:nth-child(2) .social-foo {
+    width: auto;
+    margin: auto;
+  }
+
+  #main figure:nth-child(2) .social-foo h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  #main figure:nth-child(2) .social-foo img {
+    margin: 10px 12px;
+    width: 40px;
+    height: 40px;
+  }
+
+  #main figure:nth-child(2) div:nth-child(2) {
+    width: 100%;
+  }
+
+  #main figure:nth-child(2) div:nth-child(2) ul {
+    margin: auto;
+    height: 200px;
+  }
+
+  #main figure:nth-child(2) div:nth-child(3) {
+    width: 100%;
+  }
+
+  #main figure:nth-child(2) .heading {
+    text-align: center;
+    height: 57px;
+    font-size: 28px;
+  }
+
+  #main figure:nth-child(2) div:nth-child(3) ul {
+    text-align: center;
+  }
+
+  #main p {
+    font-size: 13px;
+    width: 95%;
+    height: 55px;
+    margin: auto;
+  }
+}

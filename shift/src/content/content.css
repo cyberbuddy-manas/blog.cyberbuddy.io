@@ -1,0 +1,176 @@
+/*Main Content*/
+
+main {
+  display: flex;
+  margin-top: 60px;
+}
+
+aside {
+  width: 19%;
+  height: 30vh;
+  margin: 40px 0;
+  padding: 0 4%;
+  position: sticky;
+  top: 40px;
+}
+
+aside h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+aside div {
+  display: flex;
+}
+
+aside div a {
+  margin-right: 10px;
+}
+
+aside div img {
+  margin: 18px;
+  width: 35px;
+  height: 35px;
+}
+
+aside div img:nth-child(1) {
+  margin-left: 0;
+}
+
+/*Article Text*/
+
+main div:nth-child(2) {
+  width: 55%;
+  margin-left: 5px;
+}
+
+main content h1 {
+  font-weight: 700;
+  font-size: 36px;
+  opacity: 0.9;
+  margin: auto;
+  margin-top: 25px;
+}
+
+content p {
+  text-align: justify;
+}
+
+main content p {
+  font-weight: 500;
+  font-size: 22px;
+  margin: 20px auto;
+  opacity: 0.8;
+}
+
+main content ul {
+  margin: 20px 0 20px 30px;
+}
+
+main content li {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 12px;
+  line-height: 130%;
+  opacity: 0.8;
+}
+
+/*Article Images*/
+
+main div figure {
+  width: 90%;
+  margin: auto;
+  height: auto;
+  margin-left: 0;
+}
+
+main content figure img {
+  margin: 20px auto 10px auto;
+  display: flex;
+}
+
+main content figure:nth-child(9) img {
+  width: 550px;
+  height: 690px;
+}
+
+main content figure:nth-child(11) img {
+  width: 630px;
+  height: 330px;
+}
+
+main div h4 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  color: #575757;
+}
+
+@media screen and (max-width: 900px) {
+  aside {
+    display: none;
+  }
+
+  main {
+    justify-content: center;
+  }
+
+  main div:nth-child(2) {
+    width: 75%;
+    margin: auto;
+  }
+
+  content p {
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  main {
+    margin-top: 0px;
+  }
+
+  main div:nth-child(2) {
+    width: 90%;
+  }
+
+  main content h1 {
+    font-size: 22px;
+  }
+
+  main content p {
+    font-size: 18px;
+    text-align: left;
+    word-spacing: 7px;
+  }
+
+  main content li {
+    font-size: 17px;
+  }
+
+  main div figure {
+    margin: auto;
+    justify-content: center;
+  }
+
+  main content img {
+    width: 95%;
+  }
+
+  main div h4 {
+    width: 90%;
+    margin: auto;
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+  main content figure:nth-child(9) img {
+    width: 90%;
+  }
+
+  main content figure:nth-child(11) img {
+    width: 90%;
+  }
+}

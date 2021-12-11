@@ -1,0 +1,76 @@
+/*Copy Link Section*/
+
+section {
+  margin: 40px 0;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600px;
+  margin: 20px 0;
+}
+
+section div {
+  display: flex;
+  margin: 10px auto;
+  justify-content: center;
+}
+
+section div figure {
+  width: 45%;
+  background-color: white;
+  border-radius: 50px;
+}
+
+section div figure h2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 90%;
+  margin: 10px auto;
+
+  font-weight: 600;
+  font-size: 19px;
+  color: rgba(0, 0, 0,0.5);
+}
+
+section div button {
+  display: flex;
+  place-items: center;
+  margin-left: 30px;
+  padding-left: 10px;
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+section div button img {
+  width: 40px;
+  border-radius: 80%;
+}
+
+@media screen and (max-width: 550px) {
+  section h1 {
+      font-size: 32px;
+  }
+
+  section div figure {
+    width: 60%;
+  }
+
+  section div figure h2 {
+    font-size: 15px;
+  }
+
+  section div button {
+    font-size: 17px;
+    margin-left: 15px;
+  }
+
+  section div button img {
+    width: 30px;
+  }
+}

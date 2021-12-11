@@ -1,0 +1,159 @@
+/*More About Author Footer*/
+
+#more-author {
+  margin: 50px 0 40px 0;
+}
+
+#more-author h1 {
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+#more-author div {
+  display: flex;
+  justify-content: center;
+}
+
+#more-author figure {
+  width: 22%;
+  margin: 5px 50px 0 0;
+  padding-bottom: 15px;
+  background-color: white;
+  border-radius: 20px 20px 60px 0;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.15);
+}
+
+#more-author figure:last-child {
+  margin-right: 0;
+}
+
+#more-author figure a:nth-child(1) img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+#more-author figure figcaption {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+}
+
+.tag {
+  padding: 0 12px;
+  margin: 0 8px;
+  border-radius: 35px;
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+}
+
+.tag:first-child {
+  margin-left: 0;
+}
+
+.tag:last-child {
+  margin-right: 0;
+}
+
+.food {
+  background-color: #FEF44E;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 600;
+}
+
+.movies {
+  background-color: #CB1939;
+}
+
+.science {
+  background-color: #4AD7E0;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 600;
+}
+
+.technology {
+  background-color: #333366;
+}
+
+.travel {
+  background-color: #F245B3;
+}
+
+.business {
+  background-color: #142035;
+}
+
+#more-author figure p {
+  width: 85%;
+  text-align: center;
+  font-size: 24px;
+  margin: 15px auto;
+  color: black;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+#more-author figure hr {
+  border: none;
+  border-top: 1.5px solid rgba(0, 0, 0, 0.52);
+  margin-top: 20px;
+}
+
+#more-author .r-btn {
+  display: flex;
+  justify-content: center;
+}
+
+#more-author figure h4 {
+  margin-top: 2px;
+  color: #5A5A5A;
+  text-align: center;
+  width: auto;
+  font-size: 14px;
+}
+
+#more-author figure h4:hover {
+  color: #031634;
+  transition: 0.2s ease-in-out;
+}
+
+#more-author figure a:nth-child(5) img {
+  width: 15px;
+  height: 10px;
+  margin-top: 15px;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 900px) {
+  #more-author figure {
+    width: 28%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #more-author {
+    zoom: 1;
+  }
+
+  #more-author div {
+    display: grid;
+    place-items: center;
+  }
+
+  #more-author h1 {
+    font-size: 38px;
+  }
+
+  #more-author figure {
+    width: 70%;
+    border-radius: 10px;
+    margin: 25px auto;
+  }
+
+  #more-author figure:last-child {
+    margin: 15px auto;
+  }
+}

@@ -1,0 +1,97 @@
+#exception {
+	display: flex;
+}
+
+/*Header Content*/
+
+header div:nth-child(1) h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 79.4%;
+  text-align: right;
+  margin: auto;
+}
+
+header div:nth-child(1) h3:nth-child(1) {
+  color: #000000B2;
+  width: 70%;
+  margin-top: 40px;
+}
+
+header div:nth-child(1) div .author-name {
+  width: 55%;
+}
+
+header div:nth-child(1) div h3:nth-child(1) {
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+
+  font-weight: 500;
+  color: #000000CC;
+
+  display: flex;
+  justify-content: flex-end;
+  place-items: center;
+}
+
+header div:nth-child(1) div .author-img {
+  width: 45%;
+}
+
+header div:nth-child(1) .author-img img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-left: 15px;
+  display: flex;
+  place-items: center;
+}
+
+header div:nth-child(1) h1 {
+  font-weight: bold;
+  width: 60%;
+  margin: 13px auto;
+  font-size: 48px;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+/*Header Image*/
+
+.header-img {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 40px 0;
+}
+
+.header-img img {
+  width: 700px;
+}
+
+@media screen and (max-width: 550px) {
+  header div:nth-child(1) h3:nth-child(1) {
+    font-size: 14px;
+  }
+
+	 header div:nth-child(1) h1 {
+    font-size: 30px;
+    width: 80%;
+    line-height: 105%;
+  }
+
+  .header-img img {
+    width: 98%;
+  }
+
+  header div:nth-child(1) h3 {
+    font-size: 18px;
+  }
+
+  header div:nth-child(1) div .author-name {
+    width: 62%;
+  }
+}
